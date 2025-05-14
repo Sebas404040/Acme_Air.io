@@ -85,6 +85,7 @@
     }
 
     .cabecera {
+        flex: 1;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -108,17 +109,20 @@
     }
 
     .contenedor_universal {
-        width: 90%;
-        background-color: #ffffff;
-        border-radius: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 5%;
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    gap: 20px;
+    width: 90%;
+    margin: auto; 
     }
 
     span {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .contenedor_universal hr {
