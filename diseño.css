@@ -166,3 +166,21 @@
     box-shadow: 1px 8px 15px rgba(0, 0, 0, 0.2);
     padding: 20px;
 }
+
+.seccion_perfil {
+    display: flex;
+    flex-direction: row;
+}
+
+.parrafo_usuario {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto_usuario {
+    font-size: 20px;
+}
+
+.cerrar_sesion_usuario {
+    font-size: 16px;
+}
