@@ -167,9 +167,10 @@
     padding: 20px;
 }
 
-.seccion_perfil {
+.container_usuario {
     display: flex;
     flex-direction: row;
+    gap: 20px;
 }
 
 .parrafo_usuario {
