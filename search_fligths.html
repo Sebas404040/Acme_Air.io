@@ -21,16 +21,19 @@
             </div>
             <div class="parrafo_usuario">
                 <span class="texto_usuario">Juan Mariño</span>
-                <span class="cerrar_sesion_usuario">Cerrar sesión</span>
+                <span class="cerrar_sesion_usuario"><a href="">Cerrar sesión</a></span>
             </div>
         </div>
         <hr>
         <span>Busqueda de vuelos</span>
         <form action="" class="formulario_login">
-            <input type="text" name="Email" placeholder="Origen" required>
-            <input type="text" name="Password" placeholder="Destino" required>
-            <input type="text" name="Email" placeholder="Fecha de salida" required>
-            <input type="text" name="Password" placeholder="Fecha de regreso" required>
+            <div class="checkbox">
+                <input type="checkbox" name="solo ida">Solo ida
+            </div> 
+            <input type="text" name="Origen" placeholder="Origen" required>
+            <input type="text" name="Destino" placeholder="Destino" required>
+            <input type="text" name="Fecha de salida" placeholder="Fecha de salida" required>
+            <input type="text" name="Fecha de regreso" placeholder="Fecha de regreso" required>
             <button class="buttons">BUSCAR</button>
         </form>
     </div>
