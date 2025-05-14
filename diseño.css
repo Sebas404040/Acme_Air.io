@@ -66,7 +66,7 @@ input, select {
 }
 
 .fondo_colorido {
-    background: linear-gradient(to right, purple, blue); /* Siempre encima del contenido */
+    background: linear-gradient(to right, #f62eb6, #418ee0);
 }
 
 .imagen_cabecera {
@@ -94,4 +94,26 @@ input, select {
 .dicho {
     color: white;
     font-size: 0.7em;
+}
+
+.fondo_colorido, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "OpenSans";
+    box-sizing: border-box;
+}
+
+.contenedor_universal {
+    width: 90%;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
