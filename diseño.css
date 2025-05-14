@@ -66,7 +66,7 @@ input, select {
 }
 
 .fondo_colorido {
-    
+    background: linear-gradient(to right, purple, blue); /* Siempre encima del contenido */
 }
 
 .imagen_cabecera {
@@ -74,5 +74,24 @@ input, select {
 }
 
 .cabecera {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
+.marca {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    font-family: "AnticSlab";
+    font-size: 2em;
+    color: white;
+}
+
+.dicho {
+    color: white;
+    font-size: 0.7em;
 }
