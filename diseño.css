@@ -1,20 +1,66 @@
 @font-face {
     font-family: "AnticSlab";
-    src: url("fonts/AnticSlab-Regular.otf");
+    src: url("fonts/AnticSlab-Regular.otf") format("Opentype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "OpenSans";
-    src: url("fonts/OpenSans-Bold.ttf");
+    font-family: "OpenSans_bold";
+    src: url("fonts/OpenSans-Bold.ttf") format("Opentype");
     font-weight: normal;
     font-style: bold;
 }
 
 @font-face {
     font-family: "OpenSans";
-    src: url("fonts/OpenSans-Regular.ttf");
+    src: url("fonts/OpenSans-Regular.ttf") format("Opentype");
     font-weight: normal;
     font-style: normal;
+}
+
+#imagen_acme {
+    padding-top: 15%;
+    width: 35%;
+}
+
+body {
+    font-family: "OpenSans";
+}
+
+#contenedor_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+}
+
+.formulario_login {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding: 10px;
+}
+
+input {
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    font-size: 1em;
+}
+
+#recordar_datos {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons {
+    font-family: "OpenSans_bold";
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 162, 249);
+    padding: 3%;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
 }

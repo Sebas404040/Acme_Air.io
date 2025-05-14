@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log in page</title>
+    <link rel="stylesheet" href="diseño.css">
 </head>
 <body>
     <main>
-        <img id="imagen_acme" src="images\ChatGPT_Image_12_may_2025_06_56_28_a.m..webp" alt="imagen_acme">
-        <div>
+        <div id="contenedor_login">
+            <img id="imagen_acme" src="images\ChatGPT_Image_12_may_2025_06_56_28_a.m..webp" alt="imagen_acme">
             <h1>Iniciar Sesión</h1>
-            <form action="">
+            <form action="" class="formulario_login">
                 <input type="text" name="Email" placeholder="Email" required>
                 <input type="Contraseña" name="Password" placeholder="Contraseña" required>
-                <input type="checkbox" name="Recordar_datos" id="Recordar_datos">
-                <button>INGRESAR</button>
+                <div id="recordar_datos">
+                    <input type="checkbox" name="Recordar_datos"> Recordar datos
+                </div>
+                <button class="buttons">INGRESAR</button>
             </form>
-            <span><a href="">Crear cuenta</a></span>
+            <span><a href="">Crear cuenta</a></span> <br>
             <span><a href="">¿Has olvidado tu contraseña?</a></span>
         </div>
     </main>
