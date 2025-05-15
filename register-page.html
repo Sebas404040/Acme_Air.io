@@ -16,11 +16,11 @@
     </section>
     <div class="contenedor_universal">
         <span>Registro</span> <hr>
-        <form action="" class="formulario_login"> 
-            <input type="text" name="Email" placeholder="Nombre completo" required>
-            <input type="Contraseña" name="Password" placeholder="No. Identificación" required>
+        <form method="post" class="formulario_login"> 
+            <input type="text" name="Nombre" placeholder="Nombre completo" required>
+            <input type="text" name="Identificación" placeholder="No. Identificación" required>
             <input type="text" name="Email" placeholder="Email" required>
-            <input type="Contraseña" name="Password" placeholder="Contraseña" required>
+            <input type="password" name="Contraseña" placeholder="Contraseña" required>
                 <select id="ciudades" name="ciudades">
                     <option value="" disabled selected>Elige una ciudad</option>
                     <option value="bogota">Bogotá</option>
@@ -43,7 +43,7 @@
                     <option value="riohacha">Riohacha</option>
                     <option value="sincelejo">Sincelejo</option>
                 </select>
-                <button class="buttons">Guardar</button>
+                <button class="buttons" type="submit" formaction="http://127.0.0.1:3000/password-page.html">INGRESAR</button>
             </form>
         </div>
     </div>
